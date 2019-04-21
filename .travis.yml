@@ -1,1 +1,10 @@
 language: java
+sudo: required
+
+services:
+  - docker
+  
+after_success:
+  - docker login -u joelcrisanto -p $DOCKER_PASSWORD
+  - docker build --tag dspringboot .
+  - docker push dspringboot
