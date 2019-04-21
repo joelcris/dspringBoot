@@ -7,4 +7,5 @@ services:
 after_success:
   - docker login -u joelcrisanto -p $DOCKER_PASSWORD
   - docker build --tag dspringboot .
-  - docker push dspringboot
+  - docker tag firstimage joelcrisanto/dspringboot
+  - docker push joelcrisanto/dspringboot
