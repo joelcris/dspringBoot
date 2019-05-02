@@ -14,4 +14,4 @@ notifications:
   email:
     recipients:
       - jcrisantoj1500@alumno.ipn.mx
-    on_success: always
+    on_success: never
