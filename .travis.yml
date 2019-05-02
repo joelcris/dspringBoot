@@ -9,3 +9,7 @@ after_success:
   - docker build --tag joelcrisanto/dspringboot .
   #- docker tag latest joelcrisanto/dspringboot
   - docker push joelcrisanto/dspringboot
+  
+notifications:
+  email:
+    - yourname@gmail.com
