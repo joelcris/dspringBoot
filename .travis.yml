@@ -12,4 +12,6 @@ after_success:
   
 notifications:
   email:
-    - joel.crisanto.juarez@gmail.com
+    recipients:
+      - jcrisantoj1500@alumno.ipn.mx
+     on_success: always
