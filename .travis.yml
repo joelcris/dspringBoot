@@ -12,4 +12,4 @@ after_success:
   
 notifications:
   email:
-    - yourname@gmail.com
+    - joel.crisanto.juarez@gmail.com
